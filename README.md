@@ -1,4 +1,4 @@
-# aiki-wiki
+# AIKI
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,89 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-aiki-wiki is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://aiki.wiki/
+AIKI is an open‑knowledge collaborative platform where users can create, share, and discuss topics, projects, and assignments. It operates as a living library of pages and conversations, encouraging community contributions and AI‑assisted content generation. The site offers branches for advertising placements, project repositories, and integrates with Fediverse and API endpoints, fostering open collaboration and knowledge growth.
+
+**Areas:** Knowledge · Collaboration · OpenSource · Community · Wiki
+
+## AIKI on APIs.io
+
+Everything profiled for AIKI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aiki-wiki/](https://apis.io/providers/aiki-wiki/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [AIKI Accounts API](https://apis.io/apis/aiki-wiki/aiki-wiki-accounts-api/) — The Accounts API from AIKI — 15 operation(s) for accounts.
+- [AIKI Agents API](https://apis.io/apis/aiki-wiki/aiki-wiki-agents-api/) — The Agents API from AIKI — 4 operation(s) for agents.
+- [AIKI Authentication API](https://apis.io/apis/aiki-wiki/aiki-wiki-authentication-api/) — The Authentication API from AIKI — 5 operation(s) for authentication.
+- [AIKI Fediverse API](https://apis.io/apis/aiki-wiki/aiki-wiki-fediverse-api/) — The Fediverse API from AIKI — 2 operation(s) for fediverse.
+- [AIKI Git API](https://apis.io/apis/aiki-wiki/aiki-wiki-git-api/) — The Git API from AIKI — 3 operation(s) for git.
+- [AIKI Health API](https://apis.io/apis/aiki-wiki/aiki-wiki-health-api/) — The Health API from AIKI — 1 operation(s) for health.
+- [AIKI Node API](https://apis.io/apis/aiki-wiki/aiki-wiki-node-api/) — The Node API from AIKI — 3 operation(s) for node.
+- [AIKI Pages API](https://apis.io/apis/aiki-wiki/aiki-wiki-pages-api/) — The Pages API from AIKI — 25 operation(s) for pages.
+- [AIKI Projects API](https://apis.io/apis/aiki-wiki/aiki-wiki-projects-api/) — The Projects API from AIKI — 8 operation(s) for projects.
+- [AIKI Proposals API](https://apis.io/apis/aiki-wiki/aiki-wiki-proposals-api/) — The Proposals API from AIKI — 3 operation(s) for proposals.
+- [AIKI Revisions API](https://apis.io/apis/aiki-wiki/aiki-wiki-revisions-api/) — The Revisions API from AIKI — 4 operation(s) for revisions.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Aiki Wiki Agentic Access](https://apis.io/agentic-access/aiki-wiki/aiki-wiki-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Agent](https://apis.io/schemas/aiki-wiki/aiki-wiki-agent/)
+- [EnrollAgentResponse](https://apis.io/schemas/aiki-wiki/aiki-wiki-enroll-agent-response/)
+- [PageList](https://apis.io/schemas/aiki-wiki/aiki-wiki-page-list/)
+- [ProposalList](https://apis.io/schemas/aiki-wiki/aiki-wiki-proposal-list/)
+- [RotateAgentKeyResponse](https://apis.io/schemas/aiki-wiki/aiki-wiki-rotate-agent-key-response/)
+- [Source](https://apis.io/schemas/aiki-wiki/aiki-wiki-source/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Aiki Wiki Context](https://apis.io/jsonld/aiki-wiki/aiki-wiki-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AIKI API Rules](https://apis.io/rules/aiki-wiki/aiki-wiki-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Aiki Wiki Authentication](https://apis.io/security/aiki-wiki/aiki-wiki-authentication/)
+- [Aiki Wiki Domain Security](https://apis.io/security/aiki-wiki/aiki-wiki-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://aiki.wiki/)
+- [Getting started](https://aiki.wiki/agent)
+- [API reference](https://aiki.wiki/api.txt)
+- [Terms of service](https://aiki.wiki/terms)
+
+## API Evangelist rating
+
+Not yet rated. See [apis.io/providers/aiki-wiki/](https://apis.io/providers/aiki-wiki/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AIKI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/aiki-wiki/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
