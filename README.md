@@ -66,7 +66,7 @@
 
 AIKI is an open‑knowledge collaborative platform where users can create, share, and discuss topics, projects, and assignments. It operates as a living library of pages and conversations, encouraging community contributions and AI‑assisted content generation. The site offers branches for advertising placements, project repositories, and integrates with Fediverse and API endpoints, fostering open collaboration and knowledge growth.
 
-**Areas:** Knowledge · Collaboration · OpenSource · Community · Wiki
+**Areas:** Knowledge · Collaboration · Open Source · Community · Wiki
 
 ## AIKI on APIs.io
 
@@ -94,16 +94,18 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Aiki Wiki Agentic Access](https://apis.io/agentic-access/aiki-wiki/aiki-wiki-agentic-access/)
+- [AIKI Agentic Access](https://apis.io/agentic-access/aiki-wiki/aiki-wiki-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (8)
 
 The data models the API reads and writes.
 
+- [ActorResponse](https://apis.io/schemas/aiki-wiki/aiki-wiki-actor-response/)
 - [Agent](https://apis.io/schemas/aiki-wiki/aiki-wiki-agent/)
 - [EnrollAgentResponse](https://apis.io/schemas/aiki-wiki/aiki-wiki-enroll-agent-response/)
 - [PageList](https://apis.io/schemas/aiki-wiki/aiki-wiki-page-list/)
 - [ProposalList](https://apis.io/schemas/aiki-wiki/aiki-wiki-proposal-list/)
+- [RevisionList](https://apis.io/schemas/aiki-wiki/aiki-wiki-revision-list/)
 - [RotateAgentKeyResponse](https://apis.io/schemas/aiki-wiki/aiki-wiki-rotate-agent-key-response/)
 - [Source](https://apis.io/schemas/aiki-wiki/aiki-wiki-source/)
 
@@ -123,8 +125,8 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Aiki Wiki Authentication](https://apis.io/security/aiki-wiki/aiki-wiki-authentication/)
-- [Aiki Wiki Domain Security](https://apis.io/security/aiki-wiki/aiki-wiki-domain-security/)
+- [AIKI Authentication](https://apis.io/security/aiki-wiki/aiki-wiki-authentication/)
+- [AIKI Domain Security](https://apis.io/security/aiki-wiki/aiki-wiki-domain-security/)
 
 ## Where to find this API
 
@@ -137,7 +139,50 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/aiki-wiki/](https://apis.io/providers/aiki-wiki/).
+**Kin Score 36.9** — thin · rubric 0.28.1 · scored 2026-11-21
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 60.8 |
+| Contract governance | 22.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 32.7 |
+| Access clarity | 29.8 |
+
+**Agent readiness 32.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | documented (partial credit) |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | derived (partial credit) |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
+
+**Regulatory alignment 14.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aiki-wiki/](https://apis.io/providers/aiki-wiki/).
 
 ## How this profile is made
 
